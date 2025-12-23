@@ -44,6 +44,11 @@
 - 360 SafeGuard (for general purpose): <https://weishi.360.cn/>
 - 360 SD (for general purpose): <https://sd.360.cn/>
 - Huorong (for light-usage): <https://www.huorong.cn/person>
+
+**Fonts:**
+- NFs: <https://www.nerdfonts.com/font-downloads>
+- OpenSans: <https://fonts.google.com/specimen/Open+Sans>
+
 ## Env
 
 ### China Mirror Settings
