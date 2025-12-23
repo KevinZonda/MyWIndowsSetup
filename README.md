@@ -97,3 +97,25 @@ REG ADD "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /V "EnableMultic
 
 - Enable Windows 10 ESU
 - Make extension visible
+
+### Software Modification
+
+Puring WPS International
+```
+WPS_VERSION=12.2.0.23196
+USER=Kevin
+rm "C:\Users\$USER\AppData\Local\Kingsoft\WPS Office\$WPS_VERSION\office6\wpscloudsvr.exe"
+rm "C:\Users\$USER\AppData\Local\Kingsoft\WPS Office\$WPS_VERSION\office6\wpscloudlaunch.exe"
+mkdir "C:\Users\$USER\AppData\Local\Kingsoft\WPS Office\$WPS_VERSION\office6\wpscloudsvr.exe"
+mkdir "C:\Users\$USER\AppData\Local\Kingsoft\WPS Office\$WPS_VERSION\office6\wpscloudlaunch.exe"
+```
+Or MSYS2
+```
+WPS_VERSION=12.2.0.23196
+USER=Kevin
+rm    "/c/Users/$USER/AppData/Local/Kingsoft/WPS Office/$WPS_VERSION/office6/wpscloudsvr.exe"
+rm    "/c/Users/$USER/AppData/Local/Kingsoft/WPS Office/$WPS_VERSION/office6/wpscloudlaunch.exe"
+mkdir "/c/Users/$USER/AppData/Local/Kingsoft/WPS Office/$WPS_VERSION/office6/wpscloudsvr.exe"
+mkdir "/c/Users/$USER/AppData/Local/Kingsoft/WPS Office/$WPS_VERSION/office6/wpscloudlaunch.exe"
+```
+
