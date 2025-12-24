@@ -49,6 +49,9 @@
 - NFs: <https://www.nerdfonts.com/font-downloads>
 - OpenSans: <https://fonts.google.com/specimen/Open+Sans>
 
+**Drivers:**
+- Intel Thunderbolt Control Center: <https://apps.microsoft.com/detail/9n6f0jv38ph1>  
+  (if Microsoft Store doesn't work, use <https://store.rg-adguard.net/>)
 ## Env
 
 ### China Mirror Settings
