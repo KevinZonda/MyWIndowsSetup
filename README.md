@@ -65,6 +65,10 @@ go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
+```pwsh
+pnpm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npm.taobao.org
+```
 ### SDKs Activation
 
 ```cmd
